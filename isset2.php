@@ -17,7 +17,7 @@
 
 <?php
 
-if (isset($_GET['num1'])){
+if (isset($_GET['num1']) and isset($_GET['num2'])){
     $num1 = $_GET['num1'];
     $num2 = $_GET['num2'];
     $total = $num1 + $num2;
